@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main starting
+ * main ~ starting
  *
  * Description: c code that prints with put function
  *
