@@ -2,6 +2,7 @@
 
 /**
  * _islower - is lower case
+ * c - is the letter to be checked
  * Return: 1 if yes and 0 if no
  */
 
