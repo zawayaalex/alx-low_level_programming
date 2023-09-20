@@ -1,8 +1,8 @@
-File Edit Options Buffers Tools C Help                                                                                                                                                                        
 #include "main.h"
 
-/**                                                                                                                                                                                                           
- * times_table - prints the 9 times table, starting with 0                                                                                                                                                    * @n: input from 0 to 15
+/**
+ * times_table - prints the n times table starting with 0,
+ * @n: input from 0 to 15
  */
 void times_table(int n)
 {
