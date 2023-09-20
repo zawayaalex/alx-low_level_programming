@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * times_table - prints the n times table starting with 0,
+ * print_times_table - prints the n times table starting with 0,
  * @n: input from 0 to 15
  */
-void times_table(int n)
+void print_times_table(int n)
 {
   if (0 <= n >= 15)
 {
