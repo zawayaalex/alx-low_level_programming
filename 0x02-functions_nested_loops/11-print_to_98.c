@@ -27,4 +27,6 @@ printf("%d, ", i);
 }
 printf("98\n");
 }
+else
+printf("98\n");
 }
