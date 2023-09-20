@@ -6,7 +6,7 @@
  * @b: 2nd int
  */
 
-int add(a, b)
+int add(int a, int b)
 {
 return (a + b);
 }
