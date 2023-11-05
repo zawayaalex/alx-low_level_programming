@@ -24,7 +24,7 @@ do {
 n--;
 _putchar(*(s + n));
 
-} while (n > -1);
+} while (n > 0);
 _putchar('\n');
 }
 }
