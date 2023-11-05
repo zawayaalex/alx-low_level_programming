@@ -1,4 +1,7 @@
 #include "main.h"
+/**
+* _puts - prints string
+*/
 
 void _puts(char *str)
 {
@@ -6,7 +9,7 @@ int n = 0;
 
 if (*str == '\0')
 {
-_putchar('\0');
+_putchar(*str);
 _putchar('\n');
 }
 else
