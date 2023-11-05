@@ -17,7 +17,7 @@ do {
 n++;
 } while (*(s + n) != '\0');
 
-while (n > 0);
+while (n > 0)
 {
 n--
 *(c + i) = *(s + n);
