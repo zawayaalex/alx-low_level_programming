@@ -21,8 +21,9 @@ n++;
 } while (*(s + n) != '\0');
 
 do {
-_putchar(*(s + n));
 n--;
+_putchar(*(s + n));
+
 } while (n > -1);
 }
 }
