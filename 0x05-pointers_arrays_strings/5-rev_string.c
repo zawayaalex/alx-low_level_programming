@@ -17,12 +17,11 @@ do {
 n++;
 } while (*(s + n) != '\0');
 
-while (n > 0)
-{
+do {
 n--
 *(c + i) = *(s + n);
 i++
-}
+} while (n > 0);
 *s = *c;
 }
 }
