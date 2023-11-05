@@ -26,3 +26,4 @@ n--;
 } while (*(s + n) >= *s);
 _putchar('\n');
 }
+}
