@@ -6,7 +6,7 @@ int n = 0;
 
 if (*str == '\0')
 {
-_putchar(*str);
+_putchar('\0');
 _putchar('\n');
 }
 else
