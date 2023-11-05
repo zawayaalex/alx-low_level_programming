@@ -13,8 +13,8 @@ int _strlen(char *s)
 int n = 0;
 if (*s == '\0')
 return (0);
-do{
+do {
 n++;
-}while (*(s + n) != '\0');
+} while (*(s + n) != '\0');
 return (n);
 }
