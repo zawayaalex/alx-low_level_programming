@@ -22,6 +22,7 @@ n++;
 
 do {
 n--;
+*(s + n) = *(s + n)
 } while (n > 0);
 _putchar('\n');
 }
