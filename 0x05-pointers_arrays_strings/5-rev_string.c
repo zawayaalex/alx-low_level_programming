@@ -9,21 +9,20 @@
 void rev_string(char *s)
 {
 int n = 0;
-
-if (*s == '\0')
-{
-_putchar('\n');
-}
-else
+int i = 0;
+char *c;
+if (*s != '\0')
 {
 do {
 n++;
 } while (*(s + n) != '\0');
 
-do {
-n--;
-*(s + n);
-} while (n > 0);
-_putchar('\n');
+while (n > 0);
+{
+n--
+*(c + i) = *(s + n);
+i++
+}
+*s = *c;
 }
 }
