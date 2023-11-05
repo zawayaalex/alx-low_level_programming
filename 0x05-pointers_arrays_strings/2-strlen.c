@@ -8,10 +8,11 @@
 
 int _strlen(char *s)
 {
+int n = 0;
+ 
 if (*s == '\0')
 return 0;
 
-int n = 0;
 do
 {
 n++;
