@@ -15,7 +15,7 @@ if (*s != '\0')
 do {
 n++;
 } while (*(s + n) != '\0');
-char *c[n];
+ char *c(n);
 do {
 n--;
 *(c + i) = *(s + n);
