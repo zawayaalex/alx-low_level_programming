@@ -8,7 +8,7 @@
 
 int _strlen(char *s)
 {
-if (*s = "")
+if (*s == "")
 return 0;
 int n = 0;
 do
