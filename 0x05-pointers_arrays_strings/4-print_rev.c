@@ -23,7 +23,7 @@ n++;
 do {
 _putchar(*(s + n));
 n--;
-} while (*(s + n) >= *s);
+} while (n >= 0);
 _putchar('\n');
 }
 }
