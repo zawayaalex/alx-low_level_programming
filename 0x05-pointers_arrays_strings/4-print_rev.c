@@ -25,5 +25,6 @@ n--;
 _putchar(*(s + n));
 
 } while (n > -1);
+_putchar('\n');
 }
 }
