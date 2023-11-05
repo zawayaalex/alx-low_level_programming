@@ -10,8 +10,8 @@ void rev_string(char *s)
 {
 int n = 0;
 int i = 0;
-char *c;
-c = *s;
+char c;
+
 if (*s != '\0')
 {
 do {
