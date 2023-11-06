@@ -16,11 +16,11 @@ n++;
 } while (*(str + n) != '\0');
 if ((n % 2) != 0)
 {
-n = (n - 1) / 2
+n = (n - 1) / 2;
 }
 else
 {
-n = n / 2
+n = n / 2;
 }
 do {
 putchar(*(s + n));
