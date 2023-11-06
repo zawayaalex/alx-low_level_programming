@@ -16,18 +16,21 @@ n++;
 if ((n % 2) != 0)
 {
 n = (n - 1) / 2;
+do {
+_putchar(*(str + n));
+n++;
+} while (*(str + n) != '\0');
+_putchar('\n');
 }
 else
 {
 n = n / 2;
-}
-;
 do {
-n++;
 _putchar(*(str + n));
-
+n++;
 } while (*(str + n) != '\0');
-
+_putchar('\n');
+}
 }
 else
 {
