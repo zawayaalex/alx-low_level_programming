@@ -23,6 +23,6 @@ c = s[i];
 s[i] = s[n];
 s[n--] = c;
 i++;
-} while (n > 3);
+} while (n > i);
 }
 }
