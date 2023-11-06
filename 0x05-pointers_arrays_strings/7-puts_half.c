@@ -1,0 +1,31 @@
+#include "main.h"
+
+/**
+* _puts - prints string
+* @str: string
+*/
+
+void _puts(char *str)
+{
+int n = 0;
+
+if (*str != '\0')
+{
+do {
+n++;
+} while (*(str + n) != '\0');
+if ((n % 2) != 0)
+{
+n = (n - 1) / 2
+}
+else
+{
+n = n / 2
+}
+do {
+putchar(*(s + n));
+n++;
+} while (*(s + n) != '\0');
+_putchar('\n');
+}
+}
