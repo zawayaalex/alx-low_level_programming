@@ -16,13 +16,12 @@ n++;
 } while (*(str + n) != '\0');
 if ((n % 2) != 0)
 {
-i = n - 2;
+i = n - 1;
 n = (n - 1) / 2;
 do {
 n++;
 _putchar(*(str + n));
 } while (n < i);
-_putchar('\n');
 }
 else
 {
