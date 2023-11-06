@@ -1,15 +1,19 @@
 #include "main.h"
 #include <stdio.h>
 
-/** print_array - prints array of n
+/**
+* print_array - prints array of n
 * @a: the array
 * n: the number
-*
 */
 
 void print_array(int *a, int n)
 {
 int i = 0;
+int n = 0;
+do {
+n++;
+} while (*(a + n) != '\0');
 n--;
 
 do {
