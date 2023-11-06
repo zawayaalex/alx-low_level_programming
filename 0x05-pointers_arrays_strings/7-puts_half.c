@@ -17,8 +17,8 @@ if ((n % 2) != 0)
 {
 n = (n - 1) / 2;
 do {
-_putchar(*(str + n));
 n++;
+_putchar(*(str + n));
 } while (*(str + n) != '\0');
 _putchar('\n');
 }
