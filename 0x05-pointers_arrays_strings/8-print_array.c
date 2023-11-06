@@ -13,10 +13,9 @@ int i = 0;
 n--;
 
 do {
-printf(*(a + i));
-printf(" ,");
+printf("%i ,", *(a + i));
 i++;
 } while (i < n);
- printf(*(a + n));
-printf("\n");
+printf("%i\n", *(a + n));
+
 }
