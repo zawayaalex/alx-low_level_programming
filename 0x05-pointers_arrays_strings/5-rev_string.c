@@ -22,7 +22,7 @@ do {
 n--;
 c = s[i];
 s[i] = s[n];
-s[n] = c;
+s[n--] = c;
 i++;
 } while (n > 0);
 }
