@@ -20,7 +20,7 @@ n++;
 
 do {
 n--;
-c[i] = s[n];
+c = s[n];
 i++;
 } while (n > 0);
 s = c;
