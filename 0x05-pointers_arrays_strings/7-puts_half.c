@@ -23,9 +23,9 @@ else
 n = n / 2;
 }
 do {
-_putchar(*(s + n));
+_putchar(*(str + n));
 n++;
-} while (*(s + n) != '\0');
+} while (*(str + n) != '\0');
 _putchar('\n');
 }
 }
