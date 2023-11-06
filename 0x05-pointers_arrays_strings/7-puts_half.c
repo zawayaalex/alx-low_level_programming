@@ -23,7 +23,7 @@ else
 n = n / 2;
 }
 do {
-putchar(*(s + n));
+_putchar(*(s + n));
 n++;
 } while (*(s + n) != '\0');
 _putchar('\n');
