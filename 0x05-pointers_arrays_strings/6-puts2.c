@@ -12,7 +12,7 @@ if (*str != '\0')
 {
 do {
 n++;
-} while (*(s + n) != '\0');
+} while (*(str + n) != '\0');
 
 do {
 _putchar(*(str + i));
