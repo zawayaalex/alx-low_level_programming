@@ -22,10 +22,15 @@ else
 {
 n = n / 2;
 }
+n++;
 do {
 _putchar(*(str + n));
 n++;
 } while (*(str + n) != '\0');
 _putchar('\n');
+}
+else
+{
+_putchar(*str);
 }
 }
