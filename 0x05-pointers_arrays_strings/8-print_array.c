@@ -13,10 +13,10 @@ int i = 0;
 n--;
 
 do {
-printf(*a[i]);
+printf(*(a + i));
 printf(" ,");
 i++;
-} while (i < n)
-printf(a[n]);
+} while (i < n);
+ printf(*(a + n));
 printf("\n");
 }
