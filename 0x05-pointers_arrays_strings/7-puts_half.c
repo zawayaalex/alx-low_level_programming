@@ -27,7 +27,7 @@ n++;
 _putchar(*(str + n));
 
 } while (*(str + n) != '\0');
-_putchar('\n');
+
 }
 else
 {
