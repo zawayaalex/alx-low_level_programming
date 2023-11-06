@@ -22,6 +22,7 @@ do {
 n++;
 _putchar(*(str + n));
 } while (n < i);
+_putchar('\n');
 }
 else
 {
