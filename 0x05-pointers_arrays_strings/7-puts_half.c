@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _puts - prints string
+* puts_half - prints string
 * @str: string
 */
 
-void _puts(char *str)
+void puts_half(char *str)
 {
 int n = 0;
 
