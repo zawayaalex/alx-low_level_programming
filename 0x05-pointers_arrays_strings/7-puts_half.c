@@ -36,6 +36,6 @@ _putchar('\n');
 }
 else
 {
-_putchar(*str);
+_putchar('\0');
 }
 }
