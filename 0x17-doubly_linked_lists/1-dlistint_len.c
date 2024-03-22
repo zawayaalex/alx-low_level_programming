@@ -1,5 +1,4 @@
 #include "lists.h"
-11;rgb:0000/0000/0000
 /**
  * dlistint_len - Returns the number of elements in a dlistint_t list.
  * @h: Pointer to the head of the list.
